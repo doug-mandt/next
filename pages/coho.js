@@ -12,7 +12,7 @@ const client = createClient({
     accessToken: config.accessToken
 });
 
-// Our Homepage component, will receive props from contentful entries thanks to getInitialProps function below..
+// Our Homepage component, will receive props from contentful entries thanks to getInitialProps function below..NEW comment
 function CohoPage(props) {
     return ( <
             React.Fragment >
