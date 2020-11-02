@@ -12,7 +12,7 @@ const client = createClient({
     accessToken: config.accessToken
 });
 
-// Our Homepage component, will receive props from contentful entries thanks to getInitialProps function below.
+// Our Homepage component, will receive props from contentful entries thanks to getInitialProps function below..
 function CohoPage(props) {
     return ( <
             React.Fragment >
@@ -39,10 +39,10 @@ function CohoPage(props) {
             div className = "columns" > {
                 props.allPosts && props.allPosts.map(post => < Postcoho post = { post }
                     key = { post.fields.title }
-                    />)} <
-                    /div> <
-                    /div> <
-                    /React.Fragment>
+                    />)} < /
+                    div > <
+                    /div> < /
+                    React.Fragment >
                 );
             }
 
